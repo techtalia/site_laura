@@ -25,11 +25,10 @@ const Footer = () => {
         <p>Redes Sociais</p>
         <div className="flex gap-4">
           <a href="https://wa.me/5516997833995" target="_blank">
-
-          <WhatsAppIcon />
+<img src="/whatsapp.svg" alt="Contato por Whatsapp" height="30px" width="30px"/>
           </a>
-          <a href="https://www.instagram.com/psi.lauraleal/" target="_blank">
-            <InstagramIcon />
+          <a href="https://www.instagram.com/psi.lauraleal/" target="_blank" >
+            <img src="instagram.svg" alt="Contato por Instagram" height="30px" width="30px"/>
           </a>
         </div>
       </div>

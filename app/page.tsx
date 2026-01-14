@@ -5,7 +5,9 @@ import Footer from "./components/footer/footer";
 const Home = () => {
   return (
     <main>
-      
+      <div>
+        inicio
+      </div>
     </main>
   );
 };
