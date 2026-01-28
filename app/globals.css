@@ -3,6 +3,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --turquesa: #31ae94;
+  --laranja-apagado: #c79165;
+  --ciano: #18868c;
+  --verde-apagado: #8a8c6e;
+  --laranja: #cd6a3e;
+  --marrom: #572e1b;
+  --marrom-escuro: #28140c;
+  --marrom-apagado: #8a5c46;
+  --cinza: #ae9f91;
+  --salmao: #ee6484;
+  --offwhite: #FAEBD7;
 }
 
 @theme inline {
@@ -10,13 +21,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed;
-    --foreground: #0a0a0a;
-  }
 }
 
 body {

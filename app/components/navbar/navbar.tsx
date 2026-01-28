@@ -7,8 +7,8 @@ const Navbar = () => {
             <li className='mr-auto'><a href="/">Início</a></li>
             <li><a href="/sobre">Sobre mim</a></li>
             <li><a href="/abordagem">Abordagem</a></li>
-            <li><a href="/especialidades">Especialidades</a></li>
-            <li><a href="/indicacoes">Indicações de Livros</a></li>
+            <li><a href="/areasDeAtendimento">Áreas de Atendimento</a></li>
+            <li><a href="/servicos">Meus Serviços</a></li>
 
         </ul>
   )
