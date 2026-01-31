@@ -16,12 +16,12 @@ const AreasDeAtendimento = () => {
     <div>
       {/* Header */}
       <div className="flex justify-center mt-8 ">
-        <h1 className="text-2xl font-bold text-center bg-(--turquesa) py-4 px-4 rounded-xl w-fit">
+        <h1 className="text-2xl font-bold text-center bg-(--verde-apagado)  py-4 px-4 rounded-xl w-fit">
           Áreas de Atendimento
         </h1>
       </div>
       {/* Icons */}
-      <div className="flex justify-center flex-wrap gap-x-48 gap-y-16 w-2/3 mx-auto mt-12 ">
+      <div className="flex justify-center flex-wrap gap-x-48 gap-y-16 w-2/3 mx-auto my-12 ">
         {areas.map((area, index) => (
           <div key={index}>
             <ForestRoundedIcon sx={{ fontSize: 80 }} />

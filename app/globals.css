@@ -13,7 +13,7 @@
   --marrom-apagado: #8a5c46;
   --cinza: #ae9f91;
   --salmao: #ee6484;
-  --offwhite: #FAEBD7;
+  --offwhite: #faebd7;
 }
 
 @theme inline {
@@ -31,15 +31,14 @@ body {
   width: 100vw;
 }
 
-
-.home_image_div{
+.home_image_div {
   width: 100%;
   height: 100vh;
   position: relative;
   margin-bottom: 10px;
 }
 
-.home_image{
+.home_image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -47,7 +46,7 @@ body {
   border-radius: 5%;
 }
 
-.home_gradient{
+.home_gradient {
   position: absolute;
   top: 0;
   left: 0;
@@ -83,3 +82,31 @@ body {
   background-position: center;
 } */
 
+.background_layout {
+  background:
+    linear-gradient(
+      45deg,
+      transparent 49%,
+      var(--turquesa) 49% 51%,
+      transparent 51%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 49%,
+      var(--turquesa) 49% 51%,
+      transparent 51%
+    );
+  background-size: 2em 2em;
+  background-color: var(--offwhite);
+  opacity: 1;
+}
+
+.multicolumn_sobre {
+  /* Splits the content into exactly 2 columns */
+  columns: 2;
+  /* Defines the space between columns */
+  column-gap: 40px;
+  /* Adds the vertical dividing line */
+  column-rule: 2px solid #333;
+  padding: 20px;
+}

@@ -8,12 +8,12 @@ const Servicos = () => {
     <div>
       {/* Header */}
       <div className="flex justify-center mt-8 ">
-        <h1 className="text-2xl font-bold text-center bg-(--turquesa) py-4 px-4 rounded-xl w-fit">
+        <h1 className="text-2xl font-bold text-center bg-(--verde-apagado) py-4 px-4 rounded-xl w-fit">
           Meus Serviços
         </h1>
       </div>
       {/* Serviços */}
-      <div className="flex justify-center gap-12">
+      <div className="flex justify-center gap-12 mb-12">
       <div className="border border-black rounded-lg p-4 mt-24 w-1/3">
         <LocalFloristIcon sx={{ bgcolor: "var(--laranja-apagado)", borderRadius: "50%", height: 50, width: 50, position: "relative", top: -35, left: "50%", transform: "translateX(-50%)", }} />
         <h2 className="text-xl font-bold text-center mb-2">Psicoterapia Online</h2>
