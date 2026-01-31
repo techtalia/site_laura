@@ -34,8 +34,8 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="w-full h-full flex justify-center bg-(--offwhite)">
-          <div className="w-2/3 h-full bg-white border-l border-r border-black">
+        <main className="w-full  flex justify-center bg-(--offwhite)">
+          <div className="w-2/3 bg-white border-l border-r border-black">
             {children}
           </div>
         </main>

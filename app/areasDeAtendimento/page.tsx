@@ -1,4 +1,3 @@
-import React from "react";
 import ForestRoundedIcon from "@mui/icons-material/ForestRounded";
 
 const AreasDeAtendimento = () => {

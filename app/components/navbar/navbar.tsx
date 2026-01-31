@@ -1,14 +1,14 @@
-import React from 'react'
 import './navbar.css'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-        <ul className='h-16 px-16 bg-red-300 flex items-center justify-end gap-8 '>
-            <li className='mr-auto'><a href="/">Início</a></li>
-            <li><a href="/sobre">Sobre mim</a></li>
-            <li><a href="/abordagem">Abordagem</a></li>
-            <li><a href="/areasDeAtendimento">Áreas de Atendimento</a></li>
-            <li><a href="/servicos">Meus Serviços</a></li>
+        <ul className='h-[10vh] px-16 bg-(--marrom-apagado) text-white flex items-center justify-end gap-8 '>
+            <li className='mr-auto'><Link href="/">Início</Link></li>
+            <li><Link href="/sobre">Sobre mim</Link></li>
+            <li><Link href="/abordagem">Abordagem</Link></li>
+            <li><Link href="/areasDeAtendimento">Áreas de Atendimento</Link></li>
+            <li><Link href="/servicos">Meus Serviços</Link></li>
 
         </ul>
   )

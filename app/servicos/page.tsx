@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 import FilterVintageIcon from '@mui/icons-material/FilterVintage';
 
@@ -15,7 +14,7 @@ const Servicos = () => {
       </div>
       {/* Serviços */}
       <div className="flex justify-center gap-12">
-      <div className="border border-black rounded-lg p-4 mt-24 w-1/3  ">
+      <div className="border border-black rounded-lg p-4 mt-24 w-1/3">
         <LocalFloristIcon sx={{ bgcolor: "var(--laranja-apagado)", borderRadius: "50%", height: 50, width: 50, position: "relative", top: -35, left: "50%", transform: "translateX(-50%)", }} />
         <h2 className="text-xl font-bold text-center mb-2">Psicoterapia Online</h2>
         <p className="text-center">
@@ -26,7 +25,7 @@ const Servicos = () => {
           consectetur adipisicing elit. Quisquam, quod. Sed, quia!
         </p>
         <button
-          className="bg-(--turquesa) text-white px-4 py-2 rounded-lg mt-4 mx-auto flex hover:cursor-pointer"
+          className="bg-(--laranja) text-white px-4 py-2 rounded-lg mt-4 mx-auto flex hover:cursor-pointer hover:bg-(--laranja-apagado)"
           onClick={() =>
             window.open("https://www.instagram.com/psi.lauraleal/", "_blank")
           }
@@ -35,7 +34,7 @@ const Servicos = () => {
         </button>
       </div>
 
-      <div className="border border-black rounded-lg p-4 mt-24 w-1/3  ">
+      <div className="border border-black rounded-lg p-4 mt-24 w-1/3">
         <FilterVintageIcon sx={{ bgcolor: "var(--laranja-apagado)", borderRadius: "50%", height: 50, width: 50, position: "relative", top: -35, left: "50%", transform: "translateX(-50%)", }} />
         <h2 className="text-xl font-bold text-center mb-2">Grupo Terapêutico</h2>
         <p className="text-center">
@@ -46,7 +45,7 @@ const Servicos = () => {
           consectetur adipisicing elit. Quisquam, quod. Sed, quia!
         </p>
         <button
-          className="bg-(--turquesa) text-white px-4 py-2 rounded-lg mt-4 mx-auto flex hover:cursor-pointer"
+          className="bg-(--laranja) text-white px-4 py-2 rounded-lg mt-4 mx-auto flex hover:cursor-pointer hover:bg-(--laranja-apagado)"
           onClick={() =>
             window.open("https://www.instagram.com/psi.lauraleal/", "_blank")
           }
