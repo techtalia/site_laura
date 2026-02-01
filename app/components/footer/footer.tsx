@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full flex justify-center gap-x-20 bg-(--laranja-apagado) h-[10vh] ">
+    <div className="w-full flex justify-center gap-x-20 bg-(--laranja-apagado) h-[15vh] items-center  ">
       {/* Logo */}
       <div>Logo</div>
 
@@ -22,12 +22,13 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center space-y-4">
         <p>Redes Sociais</p>
         <div className="flex gap-4">
-          <a href="https://wa.me/5516997833995" target="_blank">
+          <a href="https://wa.me/5516997833995" target="_blank" >
             <Image
               src="/whatsapp.svg"
               alt="Contato por Whatsapp"
               height={30}
               width={30}
+              className="hover:bg-(--marrom-apagado) rounded-xl"
             />
           </a>
           <a href="https://www.instagram.com/psi.lauraleal/" target="_blank">
@@ -36,6 +37,7 @@ const Footer = () => {
               alt="Contato por Instagram"
               height={30}
               width={30}
+              className="hover:bg-(--marrom-apagado) rounded-lg"
             />
           </a>
         </div>
