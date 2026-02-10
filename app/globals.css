@@ -29,15 +29,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
 }
 
 .inside_layout {
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0) 0%,
-    var(--offwhite) 1%,
-    var(--offwhite) 99%,
+    var(--offwhite) 0.5%,
+    var(--offwhite) 99.5%,
     rgba(255, 255, 255, 0) 100%
   );
 }
