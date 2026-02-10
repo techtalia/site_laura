@@ -1,5 +1,5 @@
-import Image from "next/image";
 import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
+import "./index.css";
 
 
 const Home = () => {

@@ -9,20 +9,26 @@ const Footer = () => {
       {/* Telefone */}
       <div className="flex flex-col items-center justify-center space-y-4">
         <p>Telefone</p>
-        <p>(XX) XXXXX-XXXX</p>
+        <p>(16) 99783-3995</p>
       </div>
 
+      {/* Instagram */}
+      <div className="flex flex-col items-center justify-center space-y-4">
+        <p>Instagram</p>
+        <p>@psi.lauraleal</p>
+      </div>
+      
       {/* Email */}
       <div className="flex flex-col items-center justify-center space-y-4">
         <p>Email</p>
-        <p>teste@teste.com</p>
+        <p>lauraleal.psi@gmail.com</p>
       </div>
 
       {/* Redes Sociais */}
       <div className="flex flex-col items-center justify-center space-y-4">
         <p>Redes Sociais</p>
         <div className="flex gap-4">
-          <a href="https://wa.me/5516997833995" target="_blank" >
+          <a href="https://wa.me/5516997833995" target="_blank">
             <Image
               src="/whatsapp.svg"
               alt="Contato por Whatsapp"

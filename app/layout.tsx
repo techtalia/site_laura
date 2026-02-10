@@ -35,7 +35,7 @@ export default function RootLayout({
           <Navbar />
         </header>
         <main className="w-full  flex justify-center  background_layout">
-          <div className="w-2/3 bg-(--offwhite) border-l border-r border-black">
+          <div className="w-2/3 inside_layout">
             {children}
           </div>
         </main> 

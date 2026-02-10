@@ -1,0 +1,9 @@
+.multicolumn_sobre {
+  /* Splits the content into exactly 2 columns */
+  columns: 2;
+  /* Defines the space between columns */
+  column-gap: 40px;
+  /* Adds the vertical dividing line */
+  column-rule: 2px solid #333;
+  padding: 20px;
+}

@@ -1,5 +1,5 @@
-import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 import Image from "next/image";
+import "./sobre.css";
 
 const Sobre = () => {
   return (
