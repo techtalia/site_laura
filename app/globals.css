@@ -24,7 +24,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sobre, .servicos, .home, .abordagem, .areasDeAtendimento {
+  animation: appear 0.5s linear;
+}
+
 body {
+  animation: appear 0.5s linear;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
@@ -42,24 +56,7 @@ body {
   );
 }
 
-/* .background_layout {
-  background:
-    linear-gradient(
-      45deg,
-      transparent 49%,
-      var(--turquesa) 49% 51%,
-      transparent 51%
-    ),
-    linear-gradient(
-      -45deg,
-      transparent 49%,
-      var(--turquesa) 49% 51%,
-      transparent 51%
-    );
-  background-size: 2em 2em;
-  background-color: var(--almond);
-  opacity: 1;
-} */
+
 
 .background_layout {
   background:

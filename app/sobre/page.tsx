@@ -3,17 +3,17 @@ import "./sobre.css";
 
 const Sobre = () => {
   return (
-    <div>
+    <div className="sobre">
       {/* Header */}
-      <div className="flex justify-center gap-x-8 items-end my-8">
+      <div className="flex justify-center items-end my-8">
         <Image
           src="/8.jpeg"
           alt=""
           width={150}
           height={150}
-          className="rounded-full"
+          className="rounded-full absolute top-20 left-1/4"
         />
-        <div className="w-1/2 space-y-4 bg-(--verde-apagado) p-4  rounded-xl">
+        <div className="w-2/3 space-y-4 bg-(--verde-apagado) py-1 pl-32 rounded-xl">
           <h1 className="text-2xl font-bold">Prazer, sou a Laura </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi

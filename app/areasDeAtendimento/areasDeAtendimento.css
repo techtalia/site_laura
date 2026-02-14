@@ -1,0 +1,12 @@
+@keyframes goUpIcons {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.divIcons {
+    animation: goUpIcons 0.5s linear;
+}

@@ -4,7 +4,7 @@ import "./index.css";
 
 const Home = () => {
   return (
-      <div className="min-h-screen">
+      <div className="min-h-screen home">
         {/* header */}
         <div className="flex items-center justify-center mb-2 gap-x-8 py-8 mx-8 border-b-2 border-(--cinza)">
           {/* Logo */}
@@ -12,8 +12,8 @@ const Home = () => {
             <LocalFloristIcon sx={{ fontSize: 120 }} />
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-bold font-serif pb-4">
-              Laura Leal Nosella
+            <h1 className="text-5xl font-bold font-serif pb-4 divNome">
+              Laura Leal
             </h1>
             <p >
               Psicóloga Clínica - CRP: 06/221731

@@ -1,0 +1,25 @@
+@keyframes goSidewaysDivServicos1 {
+  from {
+    transform: translateX(-80px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes goSidewaysDivServicos2 {
+  from {
+    transform: translateX(160px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.divServicos1 {
+    animation: goSidewaysDivServicos1 0.5s linear;
+}
+
+.divServicos2 {
+    animation: goSidewaysDivServicos2 0.65s forwards;
+}
