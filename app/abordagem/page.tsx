@@ -9,7 +9,7 @@ const Abordagem = () => {
           Abordagem
         </h1>
 
-      <div className="multicolumn_sobre w-2/3 mx-auto text-justify">
+      <div className="multicolumn_sobre lg:w-2/3 w-3/4 mx-auto text-justify">
         <p className="mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugiat
           cupiditate pariatur officia quibusdam molestiae expedita inventore a

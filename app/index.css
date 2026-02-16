@@ -42,3 +42,22 @@
     animation: goUpDivNome 0.5s linear forwards;
     animation-delay: 0.5s;
 }
+
+@media (max-width: 768px){
+    .home_image_div {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    
+    
+  }
+  .home_gradient {
+    display: none;
+  }
+}
+
+@media (max-width: 768px){
+    .home_image_div {
+      width: 90%;
+    }
+}

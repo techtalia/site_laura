@@ -6,9 +6,9 @@ const Home = () => {
   return (
       <div className="min-h-screen home">
         {/* header */}
-        <div className="flex items-center justify-center mb-2 gap-x-8 py-8 mx-8 border-b-2 border-(--cinza)">
+        <div className="md:flex items-center justify-center mb-2 gap-x-8 py-8 mx-8 border-b-2 border-(--cinza)">
           {/* Logo */}
-          <div>
+          <div className="flex justify-center">
             <LocalFloristIcon sx={{ fontSize: 120 }} />
           </div>
           <div className="text-center">
@@ -43,6 +43,21 @@ const Home = () => {
             </div>
           <img src="/7.jpg" alt="" className="home_image" />
           </div>
+
+          <p className="md:hidden p-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, delectus. Ipsum quasi quaerat fuga ad ut dolore error minima sint nihil consectetur eveniet reprehenderit ipsam, in quas enim maiores natus.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, delectus. Ipsum quasi quaerat fuga ad ut dolore error minima sint nihil consectetur eveniet reprehenderit ipsam, in quas enim maiores natus.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, delectus. Ipsum quasi quaerat fuga ad ut dolore error minima sint nihil consectetur eveniet reprehenderit ipsam, in quas enim maiores natus.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, delectus. Ipsum quasi quaerat fuga ad ut dolore error minima sint nihil
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, delectus. Ipsum quasi quaerat fuga ad ut dolore error minima sint nihil consectetur eveniet reprehenderit ipsam, in quas enim maiores natus.
+              
+            </p>
       </div>
   );
 };

@@ -8,3 +8,9 @@
   padding: 20px;
 }
 
+@media (max-width: 768px){
+    .multicolumn_sobre {
+    columns: 1;
+    
+  }
+}

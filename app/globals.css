@@ -57,6 +57,11 @@ body {
   );
 }
 
+@media (max-width: 1024px){
+  .inside_layout {
+    width: 90%;
+  }
+}
 
 
 .background_layout {

@@ -14,8 +14,8 @@ const Servicos = () => {
         </h1>
       </div>
       {/* Serviços */}
-      <div className="flex justify-center gap-12 mb-12 divServicos1">
-      <div className="border border-black rounded-lg p-4 mt-24 w-1/3 bg-(--almond)">
+      <div className="lg:flex lg:justify-center lg:gap-12 lg:mb-12 divServicos">
+      <div className="border border-black rounded-lg p-4 mt-24 w-1/3 bg-(--almond) divServicos1">
         <LocalFloristIcon sx={{ bgcolor: "var(--laranja-apagado)", borderRadius: "50%", height: 50, width: 50, position: "relative", top: -35, left: "50%", transform: "translateX(-50%)", }} />
         <h2 className="text-xl font-bold text-center mb-2">Psicoterapia Online</h2>
         <p className="text-center">

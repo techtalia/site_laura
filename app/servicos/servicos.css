@@ -23,3 +23,25 @@
 .divServicos2 {
     animation: goSidewaysDivServicos2 0.65s forwards;
 }
+
+
+@media (max-width: 1024px){
+  .servicos {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .divServicos1, .divServicos2 {
+    width: 70%;
+    margin: 2rem auto;
+    
+  }
+}
+
+@media (max-width: 768px){
+    .divServicos1, .divServicos2 {
+    width: 80%;
+    
+  }
+}
