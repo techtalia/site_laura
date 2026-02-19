@@ -1,6 +1,11 @@
 import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 import "./index.css";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Laura Leal Psi",
+  description: "Psicóloga Clínica | CRP: 06/221731",
+};
 
 const Home = () => {
   return (

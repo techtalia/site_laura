@@ -1,17 +1,23 @@
 import Image from "next/image";
 import "./sobre.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Laura Leal Psi - Sobre",
+  description: "Psicóloga Clínica | CRP: 06/221731",
+};
 
 const Sobre = () => {
   return (
     <div className="sobre">
       {/* Header */}
-      <div className="flex justify-center items-end md:my-8 mt-42 mb-8">
+      <div className="flex justify-center items-end md:my-8 mt-44 mb-8">
         <Image
           src="/8.jpeg"
           alt=""
           width={150}
           height={150}
-          className="rounded-full absolute lg:top-20 lg:left-1/4  md:top-20 md:left-1/8 top-18 "
+          className="rounded-full absolute lg:top-20 lg:left-1/4  md:top-20 md:left-1/8 top-20 "
         />
         <div className="lg:w-2/3 md:w-3/4 w-4/5  space-y-4 bg-(--verde-apagado) md:py-1 p-2 md:pl-32  rounded-xl md:text-left text-center">
           <h1 className="text-2xl font-bold">Prazer, sou a Laura </h1>

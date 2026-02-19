@@ -1,5 +1,11 @@
 import ForestRoundedIcon from "@mui/icons-material/ForestRounded";
 import "./areasDeAtendimento.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Laura Leal Psi - Áreas de Atendimento",
+  description: "Psicóloga Clínica | CRP: 06/221731",
+};
 
 const AreasDeAtendimento = () => {
   const areas = [
@@ -28,8 +34,8 @@ const AreasDeAtendimento = () => {
             <ForestRoundedIcon sx={{ fontSize: 80 }} />
             <p className="text-center">{area}</p>
           </div>
-          ))}
-        </div>
+        ))}
+      </div>
     </div>
   );
 };

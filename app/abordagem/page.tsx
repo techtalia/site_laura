@@ -1,5 +1,10 @@
-import React from "react";
 import "../sobre/sobre.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Laura Leal Psi - Abordagem",
+  description: "Psicóloga Clínica | CRP: 06/221731",
+};
 
 const Abordagem = () => {
   return (
