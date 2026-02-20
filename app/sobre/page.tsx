@@ -17,9 +17,9 @@ const Sobre = () => {
           alt=""
           width={150}
           height={150}
-          className="rounded-full absolute lg:left-1/4  md:left-1/8 top-0 "
+          className="rounded-full absolute lg:left-1/4  md:left-1/8 top-0 fotoSobre "
         />
-        <div className="lg:w-2/3 md:w-3/4 w-4/5  space-y-4 bg-(--verde-apagado) md:py-1 p-2 md:pl-32  rounded-xl md:text-left text-center">
+        <div className="lg:w-2/3 md:w-3/4 w-4/5  space-y-4 bg-(--verde-apagado) md:py-1 p-2 md:pl-32  rounded-xl md:text-left text-center textSobre">
           <h1 className="text-2xl font-bold">Prazer, sou a Laura </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi

@@ -13,7 +13,7 @@ const Home = () => {
         {/* header */}
         <div className="md:flex items-center justify-center mb-2 gap-x-8 py-8 mx-8 border-b-2 border-(--cinza)">
           {/* Logo */}
-          <div className="flex justify-center">
+          <div className="flex justify-center divLogo">
             <LocalFloristIcon sx={{ fontSize: 120 }} />
           </div>
           <div className="text-center">

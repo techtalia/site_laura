@@ -32,32 +32,30 @@ export default function RootLayout({
     }
   };
 
-   // Track whether the scroll arrow is needed.
+  // Track whether the scroll arrow is needed.
   const [showScroll, setShowScroll] = useState(false);
   // Check the scroll state, re-memoize when scroll state changes.
-  const checkScrollTop = useCallback(
-    () => {
-      const headerHeight = 350;
+  const checkScrollTop = useCallback(() => {
+    const headerHeight = 350;
 
-      if (!showScroll && window.pageYOffset > headerHeight && window.innerWidth < 1024) {
-        setShowScroll(true);
-      } else if (showScroll && window.pageYOffset <= headerHeight) {
-        setShowScroll(false);
-      }
-    },
-    [showScroll],
-  );
+    if (
+      !showScroll &&
+      window.pageYOffset > headerHeight &&
+      window.innerWidth < 1024
+    ) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= headerHeight) {
+      setShowScroll(false);
+    }
+  }, [showScroll]);
   // Add/remove the event listener when the component is unmounted or the scroll state has changed.
-  useEffect(
-    () => {
-      window.addEventListener('scroll', checkScrollTop);
-      return () => window.removeEventListener('scroll', checkScrollTop);
-    },
-    [checkScrollTop],
-  );
+  useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop);
+    return () => window.removeEventListener("scroll", checkScrollTop);
+  }, [checkScrollTop]);
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -72,20 +70,20 @@ export default function RootLayout({
           <main
             className="w-full  flex justify-center  background_layout"
             onClick={toggleOverlay}
-            
           >
             <div className="scrollTop">
-      <button
-        onClick={scrollTop}
-        style={{ display: showScroll ? 'flex' : 'none', position: 'fixed', bottom: '4rem',  }}
-      >
-        <ArrowUpwardRounded className="text-white bg-(--marrom-escuro) rounded-full hover:cursor-pointer hover:bg-(--verde-apagado) hover:text-(--marrom-escuro)" />
-      </button>
-    </div>
-            <div className="lg:w-2/3 inside_layout">{children}
-            
+              <button
+                onClick={scrollTop}
+                style={{
+                  display: showScroll ? "flex" : "none",
+                  position: "fixed",
+                  bottom: "4rem",
+                }}
+              >
+                <ArrowUpwardRounded className="text-white bg-(--marrom-escuro) rounded-full hover:cursor-pointer hover:bg-(--verde-apagado) hover:text-(--marrom-escuro)" />
+              </button>
             </div>
-            
+            <div className="lg:w-2/3 inside_layout">{children}</div>
           </main>
           <footer className="bottom-0 left-0 w-full" onClick={toggleOverlay}>
             <Footer />

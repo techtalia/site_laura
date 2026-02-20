@@ -46,7 +46,7 @@ const Servicos = () => {
           <div className="flex justify-center w-full">
             <a
               target="_blank"
-              href="https://www.instagram.com/psi.lauraleal/"
+              href="https://wa.me/5516997833995"
               rel="noopener noreferrer"
               className="w-fit mt-4 rounded-lg"
             >
@@ -84,7 +84,7 @@ const Servicos = () => {
           <div className="flex justify-center w-full">
             <a
               target="_blank"
-              href="https://www.instagram.com/psi.lauraleal/"
+              href="https://wa.me/5516997833995"
               rel="noopener noreferrer"
               className="w-fit mt-4 rounded-lg"
             >
