@@ -64,27 +64,27 @@ body {
 }
 
 
+html {
+  --s: 40px; /* control the size*/
+  --c1: #cd6a3e;
+  --c2: #dee1b6;
+  --c3: #18868c;
+  --c4: #31ae94;
+  --c:,#0000 39%,var(--c1) 40% 93%,#0000 94%;
+  --_s:calc(1.5*var(--s))/calc(4*var(--s)) calc(3*var(--s));
+  
+}
 
 .background_layout {
-  background:
-    radial-gradient(
-      circle at top left,
-      transparent 25%,
-      #c79165 25.5%,
-      #c79165 36%,
-      transparent 37%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at bottom right,
-      transparent 34%,
-      #c79165 34.5%,
-      #c79165 45.5%,
-      transparent 46%,
-      transparent 100%
-    );
-  background-size: 6em 6em;
-  background-color: #faebd7;
+ background:
+    radial-gradient(calc(1.5*var(--s)) at 37.5%   0%var(--c))
+     calc(-.5*var(--s)) var(--_s),
+    radial-gradient(calc(1.5*var(--s)) at 37.5% 100%var(--c))
+     calc(1.5*var(--s)) var(--_s),
+    radial-gradient(25% calc(50%/3),#0000 96%,var(--c2))
+     0 0/calc(2*var(--s)) calc(3*var(--s)),
+    repeating-conic-gradient(var(--c3) 0 25%,var(--c4) 0 50%)
+     0 0/calc(4*var(--s)) calc(6*var(--s));
   opacity: 1;
 }
 

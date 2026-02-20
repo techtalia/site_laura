@@ -1,4 +1,4 @@
 <!-- 
-backgrounds testar
-desenhar logo
-sobre mim, texto sobreposto na imagem
+desenhar logo e hover do logo no header
+animações
+cores nav e footer
