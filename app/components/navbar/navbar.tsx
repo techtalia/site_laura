@@ -16,15 +16,15 @@ const Navbar = () => {
   };
   return (
     <nav className="flex h-[10vh] px-16 bg-(--marrom-apagado) items-center w-screen justify-between text-white">
-      <Link href="/">Início</Link>
+      <Link href="/"  onClick={toggleMenu}>Início</Link>
       <button className="menuBurguerButton" onClick={toggleMenu}>
         <div className="bar1"></div>
         <div className="bar2"></div>
         <div className="bar3"></div>
       </button>
 
-      <ul className="flex gap-8 menuLateral" id="menuLateral">
-        <li>
+      <ul className="flex gap-8 menuLateral " id="menuLateral">
+        <li >
           <Link href="/sobre" onClick={toggleMenu}>
             Sobre mim
           </Link>

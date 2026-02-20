@@ -17,6 +17,17 @@
 }
 
 
+@keyframes openSidewaysNavBar {
+  from {
+    transform: translatey(-160px);
+  }
+  to {
+    transform: translatey(0);
+  }
+}
+
+
+
 @media (max-width: 1024px){
 
     .menuLateral {
@@ -30,8 +41,7 @@
         align-items: center;
         justify-content: space-around;
         z-index: 2;
-        right: -100%;
-        transition: 0.5s ease-out;
+        visibility: hidden;
     }
 
      .menuLateral li {
@@ -49,7 +59,11 @@
     }
 
     .menuLateral.active {
-        right: 0;
+         animation: appear 0.3s linear;
+         right: 0;
+         visibility: visible;
+         position: absolute;
+         top: 8vh;
     }
 
     .menuBurguerButton {
