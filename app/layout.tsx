@@ -40,7 +40,7 @@ export default function RootLayout({
 
     if (
       !showScroll &&
-      window.pageYOffset > headerHeight 
+      window.pageYOffset > headerHeight && window.innerWidth < 1024
     ) {
       setShowScroll(true);
     } else if (showScroll && window.pageYOffset <= headerHeight) {
