@@ -40,8 +40,7 @@ export default function RootLayout({
 
     if (
       !showScroll &&
-      window.pageYOffset > headerHeight &&
-      window.innerWidth < 1024
+      window.pageYOffset > headerHeight 
     ) {
       setShowScroll(true);
     } else if (showScroll && window.pageYOffset <= headerHeight) {
@@ -78,6 +77,8 @@ export default function RootLayout({
                   display: showScroll ? "flex" : "none",
                   position: "fixed",
                   bottom: "4rem",
+                  right: "4rem",
+                  zIndex: 1000,
                 }}
               >
                 <ArrowUpwardRounded className="text-white bg-(--marrom-escuro) rounded-full hover:cursor-pointer hover:bg-(--verde-apagado) hover:text-(--marrom-escuro)" />
