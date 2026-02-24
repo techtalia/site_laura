@@ -77,11 +77,11 @@ export default function RootLayout({
                   display: showScroll ? "flex" : "none",
                   position: "fixed",
                   bottom: "4rem",
-                  right: "4rem",
+                  right: "1rem",
                   zIndex: 1000,
                 }}
               >
-                <ArrowUpwardRounded className="text-white bg-(--marrom-escuro) rounded-full hover:cursor-pointer hover:bg-(--verde-apagado) hover:text-(--marrom-escuro)" />
+                <ArrowUpwardRounded className="text-white bg-(--marrom-escuro) rounded-full hover:cursor-pointer hover:bg-(--verde-apagado) hover:text-(--marrom-escuro) "  fontSize="large"/>
               </button>
             </div>
             <div className="lg:w-2/3 inside_layout">{children}</div>
