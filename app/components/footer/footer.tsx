@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="w-full flex justify-center gap-x-20 bg-(--laranja-apagado) min-h-[15vh] items-center footer ">
+    <div className="w-full flex justify-center gap-x-20 bg-linear-to-b from-(--marrom-apagado) from-10%  to-(--laranja-apagado) to-50% min-h-[15vh] items-center footer ">
       
 
       {/* Telefone */}

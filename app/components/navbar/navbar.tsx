@@ -22,7 +22,7 @@ const Navbar = () => {
     menuBurguerButton?.classList.remove("active");
   }
   return (
-    <nav className="flex h-[10vh] px-16 bg-(--marrom-apagado) items-center w-screen justify-between text-white">
+    <nav className="flex h-[10vh] px-16 bg-linear-to-r from-(--laranja) from-40% to-(--marrom) to-90% items-center w-screen justify-between text-white">
       <Link href="/"  onClick={closeMenu}>Início</Link>
       <button className="menuBurguerButton" onClick={toggleMenu}>
         <div className="bar1"></div>
