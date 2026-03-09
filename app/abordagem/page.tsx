@@ -10,7 +10,7 @@ const Abordagem = () => {
   return (
     <div className="mt-8 abordagem">
       {" "}
-        <h1 className="text-2xl font-bold text-center bg-(--verde-apagado)  py-4 px-4 rounded-xl w-fit  mx-auto">
+        <h1 className="text-3xl font-bold font-[Tangerine] text-center bg-(--verde-apagado)  py-4 px-4 rounded-xl w-fit  mx-auto">
           Abordagem
         </h1>
 

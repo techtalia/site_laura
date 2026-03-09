@@ -17,13 +17,13 @@ const Home = () => {
             <LocalFloristIcon sx={{ fontSize: 120 }} />
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-bold font-serif pb-4 divNome">
+            <h1 className="text-7xl pb-4 divNome font-[cookie]">
               Laura Leal
             </h1>
-            <p >
+            <p className="font-[andika]">
               Psicóloga Clínica - CRP: 06/221731
             </p>
-            <p>Atendimento online - jovens e adultos</p>
+            <p className="font-[andika]">Atendimento online - jovens e adultos</p>
           </div>
 
           

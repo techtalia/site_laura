@@ -13,7 +13,7 @@ const Servicos = () => {
     <div className="servicos">
       {/* Header */}
       <div className="flex justify-center mt-8 ">
-        <h1 className="text-2xl font-bold text-center bg-(--verde-apagado) py-4 px-4 rounded-xl w-fit">
+        <h1 className="text-3xl font-bold font-[Tangerine] text-center bg-(--verde-apagado) py-4 px-4 rounded-xl w-fit">
           Meus Serviços
         </h1>
       </div>
@@ -32,7 +32,7 @@ const Servicos = () => {
               transform: "translateX(-50%)",
             }}
           />
-          <h2 className="text-xl font-bold text-center mb-2">
+          <h2 className="text-2xl font-bold font-[Tangerine] text-center mb-2">
             Psicoterapia Online
           </h2>
           <p className="text-center">
@@ -70,7 +70,7 @@ const Servicos = () => {
               transform: "translateX(-50%)",
             }}
           />
-          <h2 className="text-xl font-bold text-center mb-2">
+          <h2 className="text-2xl font-bold font-[Tangerine] text-center mb-2">
             Grupo Terapêutico
           </h2>
           <p className="text-center">
