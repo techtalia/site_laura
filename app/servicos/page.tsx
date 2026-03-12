@@ -50,7 +50,7 @@ const Servicos = () => {
               rel="noopener noreferrer"
               className="w-fit mt-4 rounded-lg"
             >
-              <button className="w-fit bg-(--laranja) text-white px-4 py-2 rounded-lg mx-auto flex hover:cursor-pointer hover:bg-(--laranja-apagado)">
+              <button className="w-fit bg-(--laranja) text-white px-4 py-2 rounded-lg mx-auto flex hover:text-black/60 hover:cursor-pointer hover:bg-(--laranja-apagado)">
                 Mais informações
               </button>
             </a>
@@ -88,7 +88,7 @@ const Servicos = () => {
               rel="noopener noreferrer"
               className="w-fit mt-4 rounded-lg"
             >
-              <button className="w-fit bg-(--laranja) text-white px-4 py-2 rounded-lg mx-auto flex hover:cursor-pointer hover:bg-(--laranja-apagado)">
+              <button className="w-fit bg-(--laranja) text-white px-4 py-2 rounded-lg mx-auto hover:text-black/60 flex hover:cursor-pointer hover:bg-(--laranja-apagado)">
                 Mais informações
               </button>
             </a>
