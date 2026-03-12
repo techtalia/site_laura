@@ -43,7 +43,7 @@ const Home = () => {
             <br />
             <br />
             Para além de cuidar dos adoecimentos, proponho que aqui, através da
-            abordagem da Psicologia Histórico Cultural, possamos encontrar os
+            abordagem da Psicologia Histórico Cultural, busquemos encontrar os
             sentidos para as vivências, atravessamentos, pensamentos, desejos,
             traumas e afetos, desafio que tem como horizonte a construção de
             autonomia e liberdade.
@@ -73,7 +73,7 @@ const Home = () => {
         <br />
         <br />
         Para além de cuidar dos adoecimentos, proponho que aqui, através da
-        abordagem da Psicologia Histórico Cultural, possamos encontrar os
+        abordagem da Psicologia Histórico Cultural, busquemos encontrar os
         sentidos para as vivências, atravessamentos, pensamentos, desejos,
         traumas e afetos, desafio que tem como horizonte a construção de
         autonomia e liberdade.
